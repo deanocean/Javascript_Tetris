@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Javscript Tetris</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrap">
+        <div id="rule">
+                <p>↑ : rotate</p>
+                <p>↓ : go down</p>
+                <p>← : go left</p>
+                <p>→ : go right</p>
+        </div>
+        <p id="descript">Level up per 50 points</p>
+        <canvas id="tetris" width="200" height="400"></canvas>
+        <div>
+            Score : <span id="score">0</span>
+        </div>
+        <div>
+            Level : <span id="level">1</span>
+        </div>
+
+        <!-- <button>Restart</button> -->
+
+    </div>
+    <script src="tetrominoes.js"></script>
+    <script src="tetris.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+.wrap{
+    margin: 50px auto;
+    text-align: center;
+    position: relative;
+}
+
+#rule{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-250%,-50%);
+    text-align: left;
+}
+
+#descript{
+    color: blue;
+}
